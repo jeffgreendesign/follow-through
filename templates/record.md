@@ -7,7 +7,7 @@ timezone default: <IANA zone>
 ### R-<n>: <name>
 - owner: <name>; helper: <none | name (agreed)>
 - done means: <...>; excluded: <...>
-- series: <rule> (effective <date>) | manual, review <date>
+- series: <rule | once> (effective <date>) | manual, review <date>
 - timezone: <IANA>; lead times: prep <N> days before, check <...>
 - pause: <none | from - to>
 - people: <name, relation, date, stated limits>
@@ -32,4 +32,4 @@ timezone default: <IANA zone>
 - none
 
 # LOG
-<!-- append-only; one line per write: rev N | date | change -->
+<!-- append-only; one line per write, format: rev <N> | <YYYY-MM-DD> | <change> -->
