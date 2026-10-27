@@ -4,7 +4,7 @@ Grok Bot template for recurring household responsibilities. It remembers when ea
 
 Chat-only by default. No routines ship with it, no accounts are needed, and it never messages anyone but you. It follows up when you check in; it only messages you on a schedule if you approve a check-in.
 
-**Status:** v0.2.0. Synthetic regression tests and probes pass, plus a pre-ship review with a simulated retest. In daily use by the author since October 2026.
+**Status:** v0.2.1. Public template published 2026-10-27: https://x.ai/bot/01aN07LdGG8WyvI-iW5UV. Synthetic regression tests and probes pass, plus a pre-ship review with a simulated retest. In daily use by the author since October 2026.
 
 ## What it does
 
@@ -19,8 +19,8 @@ Chat-only by default. No routines ship with it, no accounts are needed, and it n
 
 ## Install
 
-1. Create a Grok Bot from this template: paste `bot-instructions.md` as the bot's instructions.
-2. Add both skills: `skills/follow-through-getting-started/` and `skills/follow-through-weekly-review/`.
+1. Create a Grok Bot from the public template: https://x.ai/bot/01aN07LdGG8WyvI-iW5UV (share id `01aN07LdGG8WyvI-iW5UV`). That bot already includes these instructions and both skills.
+2. To build the same bot from this repo instead, paste `bot-instructions.md` as the bot's instructions and add both skills: `skills/follow-through-getting-started/` and `skills/follow-through-weekly-review/`.
 3. Start a chat. Nothing else is required.
 
 ## First run
@@ -51,7 +51,6 @@ Target: a useful answer within 4 turns.
 ## Not included
 
 - No routine. The bot never creates one on its own. If you approve a check-in, it creates one routine in your time zone, tests it once, and reads back the schedule. It speaks only when something is newly due or changed, and a same-day rerun with no change sends nothing.
-- No public Grok Bot template listing yet.
 
 ## Repo layout
 

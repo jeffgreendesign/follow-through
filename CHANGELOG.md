@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.1 (2026-10-27)
+
+- Public Grok Bot template is live: https://x.ai/bot/01aN07LdGG8WyvI-iW5UV (share id `01aN07LdGG8WyvI-iW5UV`).
+- `bot-instructions.md` matches the published bot. Skills are unchanged from v0.2.0.
+
 ## v0.2.0 (2026-10-19)
 
 Setup and record safety
